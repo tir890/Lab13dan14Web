@@ -81,7 +81,7 @@ $sql .= " LIMIT {$offset}, {$per_page}";
 
 **Output:**
 
-> *(Ganti dengan screenshot halaman admin.php)*
+> ![Index](https://github.com/tir890/Lab13dan14Web/blob/2a15a2662cd7bafbfa352be1f14990622359f5ff/admin-web1314.png)
 
 ---
 
