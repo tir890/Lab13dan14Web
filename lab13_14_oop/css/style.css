@@ -1,0 +1,173 @@
+/* Reset & General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font lebih modern */
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px; /* Sedikit lengkungan di sudut */
+}
+
+/* --- HEADER & NAVIGASI (Warna Utama Di Sini) --- */
+header {
+    background-color: #2E7D32; /* Hijau Tua (Forest Green) */
+    padding: 20px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #4CAF50; /* Hijau Cerah (Material Green) */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #1b5e20; /* Hijau Gelap saat kursor diarahkan */
+    color: white;
+}
+
+/* --- TOMBOL (BUTTONS) --- */
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-large {
+    background-color: #4CAF50; /* Hijau */
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.btn-large:hover {
+    background-color: #45a049;
+}
+
+.btn-primary {
+    background-color: #2E7D32; /* Hijau Tua untuk tombol Cari */
+}
+
+/* Tombol Edit & Delete (Beda warna biar aman) */
+.btn-edit {
+    background-color: #ff9800; /* Oranye */
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336; /* Merah */
+    color: white;
+}
+
+/* --- FORM & SEARCH --- */
+.search-box {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], select, input[type="password"] {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Form Input di Tambah/Edit */
+.input {
+    margin-bottom: 15px;
+}
+.input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* --- TABEL DATA --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #E8F5E9; /* Hijau sangat muda (background header tabel) */
+    color: #1b5e20;
+}
+
+tr:hover {
+    background-color: #f1f8e9; /* Hijau tipis saat baris disorot */
+}
+
+/* --- PAGINATION (Hijau) --- */
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    border-radius: 4px;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50; /* Hijau Aktif */
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {
+    background-color: #dcedc8; /* Hijau muda saat hover paging */
+}
+
+/* --- FOOTER --- */
+footer {
+    background-color: #1b5e20; /* Hijau paling gelap */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    clear: both;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
