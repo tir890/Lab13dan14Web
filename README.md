@@ -56,7 +56,7 @@ Menampilkan data barang dalam format **Grid/Card** agar menarik bagi pembeli. Di
 
 **Output:**
 
-> *(Ganti dengan screenshot halaman index.php)*
+> ![Index](https://github.com/tir890/Lab13dan14Web/blob/fe3027f8b4bf80b730c92c49ed471175a5285b12/home-web1314.png)
 
 ---
 
