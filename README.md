@@ -102,7 +102,7 @@ move_uploaded_file($_FILES['file_gambar']['tmp_name'], $destination);
 
 **Output:**
 
-> *(Ganti dengan screenshot halaman tambah.php)*
+> ![Tambah](https://github.com/tir890/Lab13dan14Web/blob/77f9f4574ab12072a5730a74f7d0e4ab9a25e0cc/tambah-web1314.png)
 
 ---
 
