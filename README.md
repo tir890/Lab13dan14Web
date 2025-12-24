@@ -114,7 +114,7 @@ Mengamankan halaman admin agar hanya user yang terdaftar di tabel `users` yang b
 
 **Output:**
 
-> *(Ganti dengan screenshot halaman login.php)*
+> ![Login](https://github.com/tir890/Lab13dan14Web/blob/1a2cd50153a1b2837c4d2ecb57fa808949ed351c/login-web1314.png)
 
 ---
 
